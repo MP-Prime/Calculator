@@ -1,0 +1,32 @@
+#number1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+
+#number2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 200px;
+}
+
+#resulthistory{
+    white-space: break-spaces;
+}
+
+#cardmain{
+    max-width: 550px;
+    margin: 25px auto;
+}
+
+#cardboard{
+    max-width: 550px;
+    margin: 0px auto;
+}
+
+#result{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: green;
+    font-weight: bolder;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="MP">
+        <link rel="stylesheet" type="text/css" href ="calc.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+        crossorigin="anonymous">
+
+        <title>Calc</title>
+    </head>
+    <body>
+
+          <div class="container">
+           <div class="card" id="cardmain">
+            <div class="card-body" id="cardboard">
+              <h5 class="card-title">Calculator</h5>
+                  <input type="text" id="number1" class="form-control" name="number1" placeholder="first number"/>
+                  <input type="text" id="number2" class="form-control" name="number2" placeholder="second number"/>
+                  <input type="button" class="btn btn-primary" onclick="Add()" value="+" id="add">
+                  <input type="button" class="btn btn-primary" onclick="Subtract()" value="-" id="subtract">
+                  <input type="button" class="btn btn-primary" onclick="Multiply()" value="x" id="multiply">
+                  <input type="button" class="btn btn-primary" onclick="Divide()" value="/" id="divide">
+
+                <p id="result"> Result here!</p>
+                <button onclick="ResetV()" class="btn btn-danger">Reset values</button>
+                <button onclick="ResetH()" class="btn btn-danger">Reset history</button>
+                <div id="resulthistorydiv">
+                    <p id="resulthistory"></p>
+                </div>
+            </div>
+          </div>
+         </div>
+  
+ 
+  <script src="calc.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" 
+  crossorigin="anonymous"></script>
+
+    </body>
+    
+</html>
